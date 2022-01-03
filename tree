@@ -1,0 +1,9 @@
+terraform{
+provider"aws"{
+profile="Anjali"
+region="ap-south-1"
+}
+resource"ec2"{
+ami=""
+security_group=""
+}
